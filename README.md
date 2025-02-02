@@ -49,6 +49,8 @@ DockerでC++勉強用コンテナを作成しました。
 Dockerfileを作ったあと以下のコマンドを実行。
 ```cmd
 docker build -t my-vim-image .
+```
+```cmd
 docker run -v my-volume:/app -it my-vim-image
 ```
 ### 確認方法
